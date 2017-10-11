@@ -5,13 +5,13 @@ app.use(express.static('public'))
 
 
 function greet () {
-    var greets = ["Hei!", "Hallo!", "Næmmen hallaien!", "Skjera Bagera?"];
-    var ran = greets[Math.floor((Math.random()*greets.length))];
+    let greets = ["Hei!", "Hallo!", "Næmmen hallaien!", "Skjera Bagera?"];
+    let ran = greets[Math.floor((Math.random()*greets.length))];
     return ran;
 }
 
 app.get('/ran/:id', function (req, res) {
-  res.send(greet())
+  res.send(greet() + " " + req.params.id)
     
 })
 
