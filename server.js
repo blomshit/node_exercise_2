@@ -11,11 +11,12 @@ function greet () {
 }
 
 app.get('/ran/:id', function (req, res) {
-  res.send(greet() + " " + req.param.id)
-    //why is this not displaying?
+  res.send(greet())
+    
 })
 
 app.listen(8080, function () {
-  console.log('app listening on port 8080!')
     console.log(greet() + " Christian")
+    console.log('app listening on port 8080!')
+    
 })
