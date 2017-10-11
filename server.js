@@ -10,8 +10,9 @@ function greet () {
     return ran;
 }
 
-app.get('/', function (req, res) {
-  res.send(greet())  
+app.get('/ran/:id', function (req, res) {
+  res.send(greet() + " " + req.param.id)
+    //why is this not displaying?
 })
 
 app.listen(8080, function () {
