@@ -3,4 +3,4 @@ Stefan Blomberg
 Student of University of Agder
 
 Heroku URL
-https://git.heroku.com/greetingsbystefan.git
+https://greetingsbystefan.herokuapp.com/
