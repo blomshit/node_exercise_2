@@ -4,7 +4,7 @@ var app = express()
 app.set('port', (process.env.PORT || 8080));
 
 
-app.use(express.static('/public'));
+app.use(express.static(__dirname + '/public'));
 
 function greet () {
     let greets = ["Hei!", "Hallo!", "Næmmen hallaien!", "Skjera Bagera?"];
