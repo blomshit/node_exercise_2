@@ -12,8 +12,6 @@ function greet () {
     return ran;
 }
 
-
-//API
 app.get('/', function(request, response) {
   response.render('pages/index');
 });
