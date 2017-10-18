@@ -1,26 +1,25 @@
 {
-  "name": "server",
+  "name": "nodeexercise2",
   "version": "1.0.0",
-  "description": "my first npm server",
+  "description": "This is my first project published in Heroku.\r Stefan Blomberg\r Student of University of Agder",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express.js": "^1.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blomshit/node_exercise_2.git"
   },
-  "keywords": [
-    "server",
-    "test"
-  ],
   "author": "Stefan Blomberg",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/blomshit/node_exercise_2/issues"
   },
-  "homepage": "https://github.com/blomshit/node_exercise_2#readme",
-  "dependencies": {
-    "express.js": "^1.0.0"
-  }
+  "homepage": "https://github.com/blomshit/node_exercise_2#readme"
 }
